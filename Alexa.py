@@ -60,7 +60,7 @@ def run():
         respond("Okay bye bye")
         sys.exit()
 
-    respond("Do you want me to do anything else ?")
+    respond("Do you want me to do something else ?")
     command = getcommand()
     if "yes" in command:
         run()
